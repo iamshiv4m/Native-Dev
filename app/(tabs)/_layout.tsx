@@ -40,7 +40,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="booking"
+        name="booking" // points to the booking folder which has a _layout.tsx
         options={{
           title: "Booking",
           tabBarIcon: ({ color, focused }) => (
